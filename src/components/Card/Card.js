@@ -9,7 +9,7 @@ function Card(props) {
             {card.cover && (
                 <img
                     src={card.cover}
-                    alt="project_1-img"
+                    alt="project1-img"
                     className="card-cover"
                 />
             )}
