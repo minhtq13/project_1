@@ -1,7 +1,7 @@
 @import "../../setting";
 $card-border-radius: 5px;
 
-li.task-item {
+li.card-item {
     background-color: white;
     padding: $gap;
     border-radius: $card-border-radius;
@@ -9,7 +9,7 @@ li.task-item {
     &:not(:last-child) {
         margin-bottom: $gap;
     }
-    img {
+    img.card-cover {
         display: block;
         width: calc(100% + 2 * #{$gap});
         margin: -$gap 0 $gap (-$gap);
